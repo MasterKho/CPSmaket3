@@ -25,5 +25,16 @@
       letter-spacing: -0.2px;
       color: #1B1C21;
   }
+.active{
+    color: #7E7E82;
+}
+ .active::before{
+    position: absolute;
+    content: " ";
+    top: 116px;
+    left: 0px;
+    height: 32px;;
+    border-left: 4px solid #a3ffe7;
+    border-radius: 0 5px 5px 0;
 
-
+ }
