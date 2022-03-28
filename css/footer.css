@@ -30,3 +30,26 @@
     border-radius: 50%;
     background-color: var(--main-bg-color);
  }
+
+ .mailto{
+     position:absolute;  
+     height: 24px;
+     left: 24px;
+     top: calc(50% - 24px/2 + 360px);
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.2px;
+     color: #1B1C21;
+ }
+
+ .telephone{
+    position: absolute;
+    height: 32px;
+    left: 24px;
+    top: calc(50% - 32px/2 + 400px);
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+    font-weight: bold;
+ }
