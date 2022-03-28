@@ -18,19 +18,93 @@
     height: 40px;
     border-radius: 50%;
     background-color: var(--main-bg-color);
+    cursor: pointer;
   }
-  
+
   .menu__anchor {
     position: absolute;
     top: calc(50% - 1px);
-    left: calc(50% - 10px);
-    width: 10px;
+    left: calc(50% - 12px);
+    width: 22px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 3px;
+    display: inline-block;
+
+  }
+
+  .menu__burger .menu__anchor:before {
+    content: '';
+    width: 22px;
+    height: 2px;
+    position: absolute;
+    border-radius: 3px;
+    background-color: #fff;
+    transform: translateY(-5px);
+  }
+  
+  .menu__burger  .menu__anchor:after {
+    content: '';
+    width: 22px;
+    height: 2px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 3px;
+    transform: translateY(5px);
+  }
+  
+  .menu__anchor:hover::before{
+      transition: all 0.5s ease;
+    transform: rotate(45deg);
+  }
+
+  .menu__anchor:hover::after{
+  transition: all 0.5s ease;
+  transform: rotate(-45deg) ;
+  }
+
+
+ /*
+ 
+
+
+  .menu__anchor:hover:before {
+    transform: translateY(12px) rotate(135deg);
+  }
+  .menu__anchor:hover:after {
+    transform: translateY(-12px) rotate(-135deg);
+  }
+  .menu__anchor:hover span {
+    transform: scale(0);
+  }
+
+
+  .menu__anchor--first:hover{
+    transition: all 3s ease;
+    transform: translateY(15px) rotateZ(45deg);
+  }
+
+
+  .menu__anchor--secindary {
+    position: absolute;
+    top: calc(50% - 6px);
+    left: calc(50% - 12px);
+    width: 22px;
     height: 2px;
     background-color: #fff;
     border-radius: 1px;
     display: inline-block;
+    transform: rotate(-45deg) translate(-5px );
+  }
+
+  .menu__anchor--secindary:hover{
+    transition: all 3s ease;
+    transform: translateY(15px) rotateZ(45deg);
   }
   
+
+
+ 
   .menu__anchor:before {
     content: '';
     width: 18px;
@@ -48,6 +122,8 @@
     background-color: #fff;
     transform: translateY(5px);
   }
+
+  */
   /* burger end */
 
   .menu__logo {
@@ -72,3 +148,4 @@
     width: 40px;
     display: inline-block;
   }
+

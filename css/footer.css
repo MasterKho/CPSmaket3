@@ -30,7 +30,9 @@
     border-radius: 50%;
     background-color: var(--main-bg-color);
  }
+ /*end buttons */
 
+ 
  .mailto{
      position:absolute;  
      height: 24px;
