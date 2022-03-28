@@ -1,0 +1,32 @@
+ /* start buttons footer*/
+
+
+ .phone-icon {
+    position: absolute;
+    left: 24px;
+    top: 804px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--main-bg-color);
+ }
+
+ .message-icon{
+    position: absolute;
+    left: 80px;
+    top: 804px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--main-bg-color);
+ }
+
+ .contacts-icon{
+    position: absolute;
+    left: 136px;
+    top: 804px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--main-bg-color);
+ }
