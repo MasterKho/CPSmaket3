@@ -1,0 +1,29 @@
+/*main  start*/
+
+.main__title::before{
+    position: absolute;
+    content: " ";
+    top: -5px;
+    left: -24px;
+    height: 32px;;
+    border-left: 4px solid #a3ffe7;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .content{
+      margin-top: 120px;
+
+  }
+
+  .content__links li{
+      display: block;
+      margin-left: 24px;
+      margin-bottom: 32px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      letter-spacing: -0.2px;
+      color: #1B1C21;
+  }
+
+
