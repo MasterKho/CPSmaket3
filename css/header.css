@@ -19,9 +19,10 @@
     border-radius: 50%;
     background-color: var(--main-bg-color);
     cursor: pointer;
+    overflow: hidden;
   }
 
-  .menu__anchor {
+  .menu__burger span{
     position: absolute;
     top: calc(50% - 1px);
     left: calc(50% - 12px);
@@ -30,10 +31,37 @@
     background-color: #fff;
     border-radius: 3px;
     display: inline-block;
-
   }
 
-  .menu__burger .menu__anchor:before {
+  .menu__burger span:nth-child(2){
+    position: absolute;
+    top: calc(50% - 5px);
+    left: calc(50% - 12px); 
+  }
+
+  .menu__burger span:nth-child(3){
+    position: absolute;
+    top: calc(50% + 3px);
+    left: calc(50% - 12px); 
+  }
+  
+  .menu__burger:hover span:nth-child(1){
+   transform: scale(0);
+   transition: all 0.7s ease-in-out;
+  }
+
+  .menu__burger:hover span:nth-child(2){
+    transition: all 0.5s ease-in-out;
+    transform: translateY(4px) rotate(135deg);
+}
+
+   .menu__burger:hover  span:nth-child(3){
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-4px) rotate(-135deg);
+}
+
+ /*
+ .menu__burger span:before {
     content: '';
     width: 22px;
     height: 2px;
@@ -43,7 +71,7 @@
     transform: translateY(-5px);
   }
   
-  .menu__burger  .menu__anchor:after {
+  .menu__burger  span:after {
     content: '';
     width: 22px;
     height: 2px;
@@ -53,19 +81,11 @@
     transform: translateY(5px);
   }
   
-  .menu__anchor:hover::before{
-      transition: all 0.5s ease;
-    transform: rotate(45deg);
-  }
-
-  .menu__anchor:hover::after{
-  transition: all 0.5s ease;
-  transform: rotate(-45deg) ;
-  }
-
-
- /*
  
+
+  .menu__burger span:nth-child(2):hover{
+      width: 0;
+  }
 
 
   .menu__anchor:hover:before {
