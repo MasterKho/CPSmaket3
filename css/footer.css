@@ -30,9 +30,18 @@
     border-radius: 50%;
     background-color: var(--main-bg-color);
  }
+.phone-icon:hover,
+.contacts-icon:hover,
+.message-icon:hover{
+transform: scale(1.1);
+}
+
+
+
+
  /*end buttons */
 
- 
+
  .mailto{
      position:absolute;  
      height: 24px;
