@@ -30,14 +30,13 @@
     border-radius: 50%;
     background-color: var(--main-bg-color);
  }
+
+
 .phone-icon:hover,
 .contacts-icon:hover,
 .message-icon:hover{
 transform: scale(1.1);
 }
-
-
-
 
  /*end buttons */
 
@@ -53,6 +52,11 @@ transform: scale(1.1);
      color: #1B1C21;
  }
 
+ .mailto:hover{
+     box-shadow:  1px 1px 1px 1px grey;
+ }
+
+
  .telephone{
     position: absolute;
     height: 32px;
@@ -63,6 +67,11 @@ transform: scale(1.1);
     letter-spacing: -0.6px;
     color: #1B1C21;
     font-weight: bold;
+ }
+
+ .telephone:hover{
+     transform: scale(1.05);
+     color: #1B1C21;
  }
 
  .footer__checkbox{
