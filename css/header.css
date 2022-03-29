@@ -60,90 +60,7 @@
     transform: translateY(-4px) rotate(-135deg);
 }
 
- /*
- .menu__burger span:before {
-    content: '';
-    width: 22px;
-    height: 2px;
-    position: absolute;
-    border-radius: 3px;
-    background-color: #fff;
-    transform: translateY(-5px);
-  }
-  
-  .menu__burger  span:after {
-    content: '';
-    width: 22px;
-    height: 2px;
-    position: absolute;
-    background-color: #fff;
-    border-radius: 3px;
-    transform: translateY(5px);
-  }
-  
  
-
-  .menu__burger span:nth-child(2):hover{
-      width: 0;
-  }
-
-
-  .menu__anchor:hover:before {
-    transform: translateY(12px) rotate(135deg);
-  }
-  .menu__anchor:hover:after {
-    transform: translateY(-12px) rotate(-135deg);
-  }
-  .menu__anchor:hover span {
-    transform: scale(0);
-  }
-
-
-  .menu__anchor--first:hover{
-    transition: all 3s ease;
-    transform: translateY(15px) rotateZ(45deg);
-  }
-
-
-  .menu__anchor--secindary {
-    position: absolute;
-    top: calc(50% - 6px);
-    left: calc(50% - 12px);
-    width: 22px;
-    height: 2px;
-    background-color: #fff;
-    border-radius: 1px;
-    display: inline-block;
-    transform: rotate(-45deg) translate(-5px );
-  }
-
-  .menu__anchor--secindary:hover{
-    transition: all 3s ease;
-    transform: translateY(15px) rotateZ(45deg);
-  }
-  
-
-
- 
-  .menu__anchor:before {
-    content: '';
-    width: 18px;
-    height: 2px;
-    position: absolute;
-    background-color: #fff;
-    transform: translateY(-5px);
-  }
-  
-  .menu__anchor:after {
-    content: '';
-    width: 16px;
-    height: 2px;
-    position: absolute;
-    background-color: #fff;
-    transform: translateY(5px);
-  }
-
-  */
   /* burger end */
 
   .menu__logo {
@@ -158,6 +75,8 @@
     background-repeat: no-repeat;
   }
   
+
+
   .search-icon {
     position: absolute;
     top:23px;
@@ -169,3 +88,6 @@
     display: inline-block;
   }
 
+  .search-icon:hover{
+      transform: scale(1.1);
+  }

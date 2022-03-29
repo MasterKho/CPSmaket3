@@ -1,15 +1,5 @@
 /*main  start*/
 
-.main__title::before{
-    position: absolute;
-    content: " ";
-    top: -5px;
-    left: -24px;
-    height: 32px;;
-    border-left: 4px solid #a3ffe7;
-    border-radius: 0 5px 5px 0;
-  }
-
   .content{
       margin-top: 120px;
 
@@ -25,9 +15,15 @@
       letter-spacing: -0.2px;
       color: #1B1C21;
   }
+
+  .content__links a:hover{
+    color: #7E7E82;
+  }
+
 .active{
     color: #7E7E82;
 }
+
  .active::before{
     position: absolute;
     content: " ";
